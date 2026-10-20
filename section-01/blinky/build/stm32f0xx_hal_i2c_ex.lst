@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccJmILzE.s 			page 1
+ARM GAS  /tmp/cccOtsDf.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
   29:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****        devices contains the following additional features
   30:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
   31:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****        (+) Possibility to disable or enable Analog Noise Filter
-ARM GAS  /tmp/ccJmILzE.s 			page 2
+ARM GAS  /tmp/cccOtsDf.s 			page 2
 
 
   32:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****        (+) Use of a configured Digital Noise Filter
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
   86:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @{
   87:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   */
   88:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
-ARM GAS  /tmp/ccJmILzE.s 			page 3
+ARM GAS  /tmp/cccOtsDf.s 			page 3
 
 
   89:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** /**
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
   63 001a 1C3B     		subs	r3, r3, #28
   64 001c 4125     		movs	r5, #65
   65 001e 4355     		strb	r3, [r0, r5]
-ARM GAS  /tmp/ccJmILzE.s 			page 4
+ARM GAS  /tmp/cccOtsDf.s 			page 4
 
 
  108:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  104              		.loc 1 123 5 view .LVU28
  124:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
  125:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****     return HAL_OK;
-ARM GAS  /tmp/ccJmILzE.s 			page 5
+ARM GAS  /tmp/cccOtsDf.s 			page 5
 
 
  105              		.loc 1 125 5 view .LVU29
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  143              	.LCFI1:
  144              		.cfi_def_cfa_offset 16
  145              		.cfi_offset 4, -16
-ARM GAS  /tmp/ccJmILzE.s 			page 6
+ARM GAS  /tmp/cccOtsDf.s 			page 6
 
 
  146              		.cfi_offset 5, -12
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  182              		.loc 1 159 18 is_stmt 0 view .LVU50
  183 0028 0468     		ldr	r4, [r0]
  184              		.loc 1 159 12 view .LVU51
-ARM GAS  /tmp/ccJmILzE.s 			page 7
+ARM GAS  /tmp/cccOtsDf.s 			page 7
 
 
  185 002a 2368     		ldr	r3, [r4]
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  221              		.loc 1 177 12 is_stmt 0 view .LVU67
  222 0048 0020     		movs	r0, #0
  223              	.LVL12:
-ARM GAS  /tmp/ccJmILzE.s 			page 8
+ARM GAS  /tmp/cccOtsDf.s 			page 8
 
 
  224              	.L10:
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  204:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @brief  Enable I2C wakeup from Stop mode(s).
  205:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @param  hi2c Pointer to a I2C_HandleTypeDef structure that contains
  206:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   *                the configuration information for the specified I2Cx peripheral.
-ARM GAS  /tmp/ccJmILzE.s 			page 9
+ARM GAS  /tmp/cccOtsDf.s 			page 9
 
 
  207:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @retval HAL status
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  261:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****     __HAL_I2C_DISABLE(hi2c);
  262:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
  263:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****     /* Enable wakeup from stop mode */
-ARM GAS  /tmp/ccJmILzE.s 			page 10
+ARM GAS  /tmp/cccOtsDf.s 			page 10
 
 
  264:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****     hi2c->Instance->CR1 &= ~(I2C_CR1_WUPEN);
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  256              		@ link register save eliminated.
  257              		.loc 1 313 1 is_stmt 0 view .LVU72
  258 0000 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/ccJmILzE.s 			page 11
+ARM GAS  /tmp/cccOtsDf.s 			page 11
 
 
  259              	.LCFI2:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  323:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** 
  324:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c **** /**
  325:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @brief Disable the I2C fast mode plus driving capability.
-ARM GAS  /tmp/ccJmILzE.s 			page 12
+ARM GAS  /tmp/cccOtsDf.s 			page 12
 
 
  326:Drivers/STM32F0xx_HAL_Driver/Src/stm32f0xx_hal_i2c_ex.c ****   * @param ConfigFastModePlus Selects the pin.
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  338              		.loc 1 347 1 is_stmt 0 view .LVU92
  339 001c 02B0     		add	sp, sp, #8
  340              		@ sp needed
-ARM GAS  /tmp/ccJmILzE.s 			page 13
+ARM GAS  /tmp/cccOtsDf.s 			page 13
 
 
  341 001e 7047     		bx	lr
@@ -737,22 +737,22 @@ ARM GAS  /tmp/ccJmILzE.s 			page 1
  355              		.file 5 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_def.h"
  356              		.file 6 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_dma.h"
  357              		.file 7 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_i2c.h"
-ARM GAS  /tmp/ccJmILzE.s 			page 14
+ARM GAS  /tmp/cccOtsDf.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 stm32f0xx_hal_i2c_ex.c
-     /tmp/ccJmILzE.s:19     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 $t
-     /tmp/ccJmILzE.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 HAL_I2CEx_ConfigAnalogFilter
-     /tmp/ccJmILzE.s:123    .text.HAL_I2CEx_ConfigAnalogFilter:00000054 $d
-     /tmp/ccJmILzE.s:128    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 $t
-     /tmp/ccJmILzE.s:134    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 HAL_I2CEx_ConfigDigitalFilter
-     /tmp/ccJmILzE.s:238    .text.HAL_I2CEx_ConfigDigitalFilter:00000050 $d
-     /tmp/ccJmILzE.s:243    .text.HAL_I2CEx_EnableFastModePlus:00000000 $t
-     /tmp/ccJmILzE.s:249    .text.HAL_I2CEx_EnableFastModePlus:00000000 HAL_I2CEx_EnableFastModePlus
-     /tmp/ccJmILzE.s:291    .text.HAL_I2CEx_EnableFastModePlus:00000020 $d
-     /tmp/ccJmILzE.s:297    .text.HAL_I2CEx_DisableFastModePlus:00000000 $t
-     /tmp/ccJmILzE.s:303    .text.HAL_I2CEx_DisableFastModePlus:00000000 HAL_I2CEx_DisableFastModePlus
-     /tmp/ccJmILzE.s:345    .text.HAL_I2CEx_DisableFastModePlus:00000020 $d
+     /tmp/cccOtsDf.s:19     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 $t
+     /tmp/cccOtsDf.s:25     .text.HAL_I2CEx_ConfigAnalogFilter:00000000 HAL_I2CEx_ConfigAnalogFilter
+     /tmp/cccOtsDf.s:123    .text.HAL_I2CEx_ConfigAnalogFilter:00000054 $d
+     /tmp/cccOtsDf.s:128    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 $t
+     /tmp/cccOtsDf.s:134    .text.HAL_I2CEx_ConfigDigitalFilter:00000000 HAL_I2CEx_ConfigDigitalFilter
+     /tmp/cccOtsDf.s:238    .text.HAL_I2CEx_ConfigDigitalFilter:00000050 $d
+     /tmp/cccOtsDf.s:243    .text.HAL_I2CEx_EnableFastModePlus:00000000 $t
+     /tmp/cccOtsDf.s:249    .text.HAL_I2CEx_EnableFastModePlus:00000000 HAL_I2CEx_EnableFastModePlus
+     /tmp/cccOtsDf.s:291    .text.HAL_I2CEx_EnableFastModePlus:00000020 $d
+     /tmp/cccOtsDf.s:297    .text.HAL_I2CEx_DisableFastModePlus:00000000 $t
+     /tmp/cccOtsDf.s:303    .text.HAL_I2CEx_DisableFastModePlus:00000000 HAL_I2CEx_DisableFastModePlus
+     /tmp/cccOtsDf.s:345    .text.HAL_I2CEx_DisableFastModePlus:00000020 $d
 
 NO UNDEFINED SYMBOLS

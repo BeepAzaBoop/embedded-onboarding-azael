@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccylCdi5.s 			page 1
+ARM GAS  /tmp/ccWLE70F.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
   30:Core/Src/system_stm32f0xx.c ****   * If no LICENSE file comes with this software, it is provided AS-IS.
   31:Core/Src/system_stm32f0xx.c ****   *
   32:Core/Src/system_stm32f0xx.c ****   ******************************************************************************
-ARM GAS  /tmp/ccylCdi5.s 			page 2
+ARM GAS  /tmp/ccWLE70F.s 			page 2
 
 
   33:Core/Src/system_stm32f0xx.c ****   */
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
   87:Core/Src/system_stm32f0xx.c ****   */
   88:Core/Src/system_stm32f0xx.c **** 
   89:Core/Src/system_stm32f0xx.c **** /** @addtogroup STM32F0xx_System_Private_Variables
-ARM GAS  /tmp/ccylCdi5.s 			page 3
+ARM GAS  /tmp/ccWLE70F.s 			page 3
 
 
   90:Core/Src/system_stm32f0xx.c ****   * @{
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
   36              	.LFE40:
   38              		.section	.text.SystemCoreClockUpdate,"ax",%progbits
   39              		.align	1
-ARM GAS  /tmp/ccylCdi5.s 			page 4
+ARM GAS  /tmp/ccWLE70F.s 			page 4
 
 
   40              		.global	SystemCoreClockUpdate
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
   50              		@ frame_needed = 0, uses_anonymous_args = 0
   51 0000 10B5     		push	{r4, lr}
   52              	.LCFI0:
-ARM GAS  /tmp/ccylCdi5.s 			page 5
+ARM GAS  /tmp/ccWLE70F.s 			page 5
 
 
   53              		.cfi_def_cfa_offset 8
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
  202:Core/Src/system_stm32f0xx.c ****         /* HSE used as PLL clock source : SystemCoreClock = HSE/PREDIV * PLLMUL */
  203:Core/Src/system_stm32f0xx.c ****         SystemCoreClock = (HSE_VALUE/predivfactor) * pllmull;
  204:Core/Src/system_stm32f0xx.c ****       }
-ARM GAS  /tmp/ccylCdi5.s 			page 6
+ARM GAS  /tmp/ccWLE70F.s 			page 6
 
 
  205:Core/Src/system_stm32f0xx.c **** #if defined(STM32F042x6) || defined(STM32F048xx) || defined(STM32F071xB) || defined(STM32F072xB) ||
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
  107              	.L3:
  191:Core/Src/system_stm32f0xx.c ****       break;
  108              		.loc 1 191 7 is_stmt 1 view .LVU20
-ARM GAS  /tmp/ccylCdi5.s 			page 7
+ARM GAS  /tmp/ccWLE70F.s 			page 7
 
 
  191:Core/Src/system_stm32f0xx.c ****       break;
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
  147              	.LVL14:
  200:Core/Src/system_stm32f0xx.c ****       {
  148              		.loc 1 200 7 is_stmt 1 view .LVU37
-ARM GAS  /tmp/ccylCdi5.s 			page 8
+ARM GAS  /tmp/ccWLE70F.s 			page 8
 
 
  200:Core/Src/system_stm32f0xx.c ****       {
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
  191 007c 1A60     		str	r2, [r3]
  229:Core/Src/system_stm32f0xx.c ****   }
  192              		.loc 1 229 7 is_stmt 1 view .LVU50
-ARM GAS  /tmp/ccylCdi5.s 			page 9
+ARM GAS  /tmp/ccWLE70F.s 			page 9
 
 
  193 007e CDE7     		b	.L6
@@ -517,22 +517,22 @@ ARM GAS  /tmp/ccylCdi5.s 			page 1
  229              		.file 3 "/usr/arm-none-eabi/include/sys/_stdint.h"
  230              		.file 4 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/system_stm32f0xx.h"
  231              		.file 5 "Drivers/CMSIS/Device/ST/STM32F0xx/Include/stm32f030x8.h"
-ARM GAS  /tmp/ccylCdi5.s 			page 10
+ARM GAS  /tmp/ccWLE70F.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 system_stm32f0xx.c
-     /tmp/ccylCdi5.s:19     .text.SystemInit:00000000 $t
-     /tmp/ccylCdi5.s:25     .text.SystemInit:00000000 SystemInit
-     /tmp/ccylCdi5.s:39     .text.SystemCoreClockUpdate:00000000 $t
-     /tmp/ccylCdi5.s:45     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
-     /tmp/ccylCdi5.s:197    .text.SystemCoreClockUpdate:00000080 $d
-     /tmp/ccylCdi5.s:224    .data.SystemCoreClock:00000000 SystemCoreClock
-     /tmp/ccylCdi5.s:216    .rodata.AHBPrescTable:00000000 AHBPrescTable
-     /tmp/ccylCdi5.s:209    .rodata.APBPrescTable:00000000 APBPrescTable
-     /tmp/ccylCdi5.s:206    .rodata.APBPrescTable:00000000 $d
-     /tmp/ccylCdi5.s:213    .rodata.AHBPrescTable:00000000 $d
-     /tmp/ccylCdi5.s:221    .data.SystemCoreClock:00000000 $d
+     /tmp/ccWLE70F.s:19     .text.SystemInit:00000000 $t
+     /tmp/ccWLE70F.s:25     .text.SystemInit:00000000 SystemInit
+     /tmp/ccWLE70F.s:39     .text.SystemCoreClockUpdate:00000000 $t
+     /tmp/ccWLE70F.s:45     .text.SystemCoreClockUpdate:00000000 SystemCoreClockUpdate
+     /tmp/ccWLE70F.s:197    .text.SystemCoreClockUpdate:00000080 $d
+     /tmp/ccWLE70F.s:224    .data.SystemCoreClock:00000000 SystemCoreClock
+     /tmp/ccWLE70F.s:216    .rodata.AHBPrescTable:00000000 AHBPrescTable
+     /tmp/ccWLE70F.s:209    .rodata.APBPrescTable:00000000 APBPrescTable
+     /tmp/ccWLE70F.s:206    .rodata.APBPrescTable:00000000 $d
+     /tmp/ccWLE70F.s:213    .rodata.AHBPrescTable:00000000 $d
+     /tmp/ccWLE70F.s:221    .data.SystemCoreClock:00000000 $d
 
 UNDEFINED SYMBOLS
 __aeabi_uidiv

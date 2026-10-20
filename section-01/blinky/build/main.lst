@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc9cN5Qx.s 			page 1
+ARM GAS  /tmp/cc2Ftkvb.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
   31:Core/Src/main.c **** 
   32:Core/Src/main.c **** /* Private define ------------------------------------------------------------*/
   33:Core/Src/main.c **** /* USER CODE BEGIN PD */
-ARM GAS  /tmp/cc9cN5Qx.s 			page 2
+ARM GAS  /tmp/cc2Ftkvb.s 			page 2
 
 
   34:Core/Src/main.c **** 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
   88:Core/Src/main.c ****   /* Initialize all configured peripherals */
   89:Core/Src/main.c ****   MX_GPIO_Init();
   90:Core/Src/main.c ****   MX_USART2_UART_Init();
-ARM GAS  /tmp/cc9cN5Qx.s 			page 3
+ARM GAS  /tmp/cc2Ftkvb.s 			page 3
 
 
   91:Core/Src/main.c ****   /* USER CODE BEGIN 2 */
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  145:Core/Src/main.c **** /**
  146:Core/Src/main.c ****  * @brief USART2 Initialization Function
  147:Core/Src/main.c ****  * @param None
-ARM GAS  /tmp/cc9cN5Qx.s 			page 4
+ARM GAS  /tmp/cc2Ftkvb.s 			page 4
 
 
  148:Core/Src/main.c ****  * @retval None
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
   45 000a 2000     		movs	r0, r4
   46 000c FFF7FEFF 		bl	memset
   47              	.LVL0:
-ARM GAS  /tmp/cc9cN5Qx.s 			page 5
+ARM GAS  /tmp/cc2Ftkvb.s 			page 5
 
 
  183:Core/Src/main.c ****   /* USER CODE BEGIN MX_GPIO_Init_1 */
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
   95 0044 0293     		str	r3, [sp, #8]
   96              		.loc 1 189 3 view .LVU19
   97 0046 029B     		ldr	r3, [sp, #8]
-ARM GAS  /tmp/cc9cN5Qx.s 			page 6
+ARM GAS  /tmp/cc2Ftkvb.s 			page 6
 
 
   98              	.LBE6:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  204:Core/Src/main.c ****   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
  138              		.loc 1 204 3 is_stmt 1 view .LVU35
  139              		.loc 1 204 25 is_stmt 0 view .LVU36
-ARM GAS  /tmp/cc9cN5Qx.s 			page 7
+ARM GAS  /tmp/cc2Ftkvb.s 			page 7
 
 
  140 0078 0695     		str	r5, [sp, #24]
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
    2:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @file     cmsis_gcc.h
    3:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @brief    CMSIS compiler GCC header file
    4:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @version  V5.0.4
-ARM GAS  /tmp/cc9cN5Qx.s 			page 8
+ARM GAS  /tmp/cc2Ftkvb.s 			page 8
 
 
    5:Drivers/CMSIS/Include/cmsis_gcc.h ****  * @date     09. April 2018
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
   59:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __WEAK                                 __attribute__((weak))
   60:Drivers/CMSIS/Include/cmsis_gcc.h **** #endif
   61:Drivers/CMSIS/Include/cmsis_gcc.h **** #ifndef   __PACKED
-ARM GAS  /tmp/cc9cN5Qx.s 			page 9
+ARM GAS  /tmp/cc2Ftkvb.s 			page 9
 
 
   62:Drivers/CMSIS/Include/cmsis_gcc.h ****   #define __PACKED                               __attribute__((packed, aligned(1)))
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  116:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  117:Drivers/CMSIS/Include/cmsis_gcc.h **** 
  118:Drivers/CMSIS/Include/cmsis_gcc.h **** /* ###########################  Core Function Access  ########################### */
-ARM GAS  /tmp/cc9cN5Qx.s 			page 10
+ARM GAS  /tmp/cc2Ftkvb.s 			page 10
 
 
  119:Drivers/CMSIS/Include/cmsis_gcc.h **** /** \ingroup  CMSIS_Core_FunctionInterface
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  205              		.cfi_startproc
  206              		@ args = 0, pretend = 0, frame = 0
  207              		@ frame_needed = 0, uses_anonymous_args = 0
-ARM GAS  /tmp/cc9cN5Qx.s 			page 11
+ARM GAS  /tmp/cc2Ftkvb.s 			page 11
 
 
  208 0000 10B5     		push	{r4, lr}
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  244              		.loc 1 166 30 is_stmt 0 view .LVU64
  245 001e 0362     		str	r3, [r0, #32]
  167:Core/Src/main.c ****   if (HAL_UART_Init(&huart2) != HAL_OK) {
-ARM GAS  /tmp/cc9cN5Qx.s 			page 12
+ARM GAS  /tmp/cc2Ftkvb.s 			page 12
 
 
  246              		.loc 1 167 3 is_stmt 1 view .LVU65
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  293              		.loc 1 115 22 is_stmt 0 view .LVU74
  294 0004 04AC     		add	r4, sp, #16
  295 0006 3022     		movs	r2, #48
-ARM GAS  /tmp/cc9cN5Qx.s 			page 13
+ARM GAS  /tmp/cc2Ftkvb.s 			page 13
 
 
  296 0008 0021     		movs	r1, #0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  128:Core/Src/main.c ****     Error_Handler();
  334              		.loc 1 128 6 discriminator 1 view .LVU91
  335 0034 0028     		cmp	r0, #0
-ARM GAS  /tmp/cc9cN5Qx.s 			page 14
+ARM GAS  /tmp/cc2Ftkvb.s 			page 14
 
 
  336 0036 0ED1     		bne	.L14
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  377              		.align	1
  378              		.global	main
  379              		.syntax unified
-ARM GAS  /tmp/cc9cN5Qx.s 			page 15
+ARM GAS  /tmp/cc2Ftkvb.s 			page 15
 
 
  380              		.code	16
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  426 002a 0022     		movs	r2, #0
  427 002c 2021     		movs	r1, #32
  428 002e 2800     		movs	r0, r5
-ARM GAS  /tmp/cc9cN5Qx.s 			page 16
+ARM GAS  /tmp/cc2Ftkvb.s 			page 16
 
 
  429 0030 FFF7FEFF 		bl	HAL_GPIO_WritePin
@@ -934,25 +934,25 @@ ARM GAS  /tmp/cc9cN5Qx.s 			page 1
  456              		.file 10 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal_uart.h"
  457              		.file 11 "Drivers/STM32F0xx_HAL_Driver/Inc/stm32f0xx_hal.h"
  458              		.file 12 "<built-in>"
-ARM GAS  /tmp/cc9cN5Qx.s 			page 17
+ARM GAS  /tmp/cc2Ftkvb.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.c
-     /tmp/cc9cN5Qx.s:19     .text.MX_GPIO_Init:00000000 $t
-     /tmp/cc9cN5Qx.s:24     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
-     /tmp/cc9cN5Qx.s:153    .text.MX_GPIO_Init:00000088 $d
-     /tmp/cc9cN5Qx.s:159    .text.Error_Handler:00000000 $t
-     /tmp/cc9cN5Qx.s:165    .text.Error_Handler:00000000 Error_Handler
-     /tmp/cc9cN5Qx.s:197    .text.MX_USART2_UART_Init:00000000 $t
-     /tmp/cc9cN5Qx.s:202    .text.MX_USART2_UART_Init:00000000 MX_USART2_UART_Init
-     /tmp/cc9cN5Qx.s:266    .text.MX_USART2_UART_Init:00000030 $d
-     /tmp/cc9cN5Qx.s:445    .bss.huart2:00000000 huart2
-     /tmp/cc9cN5Qx.s:272    .text.SystemClock_Config:00000000 $t
-     /tmp/cc9cN5Qx.s:278    .text.SystemClock_Config:00000000 SystemClock_Config
-     /tmp/cc9cN5Qx.s:377    .text.main:00000000 $t
-     /tmp/cc9cN5Qx.s:383    .text.main:00000000 main
-     /tmp/cc9cN5Qx.s:442    .bss.huart2:00000000 $d
+     /tmp/cc2Ftkvb.s:19     .text.MX_GPIO_Init:00000000 $t
+     /tmp/cc2Ftkvb.s:24     .text.MX_GPIO_Init:00000000 MX_GPIO_Init
+     /tmp/cc2Ftkvb.s:153    .text.MX_GPIO_Init:00000088 $d
+     /tmp/cc2Ftkvb.s:159    .text.Error_Handler:00000000 $t
+     /tmp/cc2Ftkvb.s:165    .text.Error_Handler:00000000 Error_Handler
+     /tmp/cc2Ftkvb.s:197    .text.MX_USART2_UART_Init:00000000 $t
+     /tmp/cc2Ftkvb.s:202    .text.MX_USART2_UART_Init:00000000 MX_USART2_UART_Init
+     /tmp/cc2Ftkvb.s:266    .text.MX_USART2_UART_Init:00000030 $d
+     /tmp/cc2Ftkvb.s:445    .bss.huart2:00000000 huart2
+     /tmp/cc2Ftkvb.s:272    .text.SystemClock_Config:00000000 $t
+     /tmp/cc2Ftkvb.s:278    .text.SystemClock_Config:00000000 SystemClock_Config
+     /tmp/cc2Ftkvb.s:377    .text.main:00000000 $t
+     /tmp/cc2Ftkvb.s:383    .text.main:00000000 main
+     /tmp/cc2Ftkvb.s:442    .bss.huart2:00000000 $d
 
 UNDEFINED SYMBOLS
 memset

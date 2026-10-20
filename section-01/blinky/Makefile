@@ -151,6 +151,22 @@ LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BU
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
 
+.PHONY: all flash flash-safe clean
+
+flash: all
+	@echo 'Warning: flashing without checking the target MCU.'
+	st-flash write $(BUILD_DIR)/$(TARGET).bin 0x08000000
+	st-flash reset
+
+flash-safe: all
+	@printf 'Checking connected target... \n'
+	@if ! st-info --probe | grep -q 'STM32F0'; then \
+		echo 'Error: connected target is not an STM32F0; refusing to flash.'; \
+		exit 1; \
+	fi
+	st-flash write $(BUILD_DIR)/$(TARGET).bin 0x08000000
+	st-flash reset
+
 
 #######################################
 # build the application
